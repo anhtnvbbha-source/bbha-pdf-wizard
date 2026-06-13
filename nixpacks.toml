@@ -1,0 +1,4 @@
+[providers]
+node = ["node"]
+[phases.setup]
+nixPkgs = ["...", "chromium"]
