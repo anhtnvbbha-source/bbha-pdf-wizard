@@ -1,0 +1,13 @@
+{
+  "name": "haanh-pdf-wizard",
+  "version": "1.0.0",
+  "description": "HTML to PDF for Hà Anh Packaging",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.6.0"
+  }
+}
