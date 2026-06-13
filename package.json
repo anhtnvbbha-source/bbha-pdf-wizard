@@ -4,7 +4,7 @@
   "description": "HTML to PDF for Hà Anh Packaging",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --max-http-header-size=1048576 server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
